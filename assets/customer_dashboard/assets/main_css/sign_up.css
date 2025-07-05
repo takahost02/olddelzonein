@@ -1,0 +1,127 @@
+.navbar {
+    box-shadow: unset;
+}
+
+.navbar>.container,
+.navbar>.container-fluid,
+.navbar>.container-sm,
+.navbar>.container-md,
+.navbar>.container-lg,
+.navbar>.container-xl,
+.navbar>.container-xxl {
+    display: unset !important;
+}
+
+body {
+    position: relative;
+}
+
+.bg.container {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.blue_bg {
+    background: rgba(33, 82, 255, 1);
+}
+
+.navbar-toggler {
+    border: unset;
+}
+
+.form-control:focus {
+    box-shadow: unset !important;
+    border-color: #d2d6da !important;
+}
+
+/* Hide the default date input icon */
+input[type="date"]::-webkit-calendar-picker-indicator {
+    display: none;
+}
+
+/* Style the custom date icon */
+#custom-date-icon {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+/* Your existing CSS for the scrolled state */
+#myNavbar.scrolled {
+    backdrop-filter: saturate(200%) blur(30px);
+    background-color: rgba(255, 255, 255, 0.8) !important;
+    box-shadow: 0 0.3125rem 0.625rem 0 rgba(0, 0, 0, 0.12) !important;
+
+}
+
+#myNavbar.scrolled .header-caption p {
+    color: rgba(52, 71, 103, 1);
+}
+
+
+.res-form {
+    padding: 0rem 14rem 0rem 6rem;
+}
+
+.footer-copyright .copyright-link {
+    color: rgba(255, 255, 255, 1);
+}
+
+.footer-copyright .copyright-link a {
+    color: rgba(255, 255, 255, 1);
+}
+
+.footer_link a {
+    color: rgba(52, 71, 103, 1) !important;
+    text-shadow: unset !important;
+}
+
+@media only screen and (max-width:1280px) {
+    .res-form {
+        padding: 0rem 4rem 0rem 2rem;
+    }
+}
+
+@media only screen and (max-width:1024px) {
+    .res-form {
+        padding: 0rem 1rem 0rem 1rem;
+    }
+}
+
+@media only screen and (max-width:992px) {
+
+    .res-form {
+        padding: 0rem 5rem;
+    }
+
+    .login_info.navbar {
+        backdrop-filter: saturate(200%) blur(30px);
+        background-color: rgba(255, 255, 255, 0.8) !important;
+        box-shadow: 0 0.3125rem 0.625rem 0 rgba(0, 0, 0, 0.12) !important;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .checked-stats .form-check-input-1 .form-check-input {
+        width: 20px;
+        height: 18px;
+    }
+
+    .res-form {
+        padding: 0rem 0rem;
+    }
+}
+
+@media only screen and (max-width:576px) {
+    .footer_link {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width:480px) {
+    .checked-stats .form-check-input-1 .form-check-input {
+        width: 25px;
+        height: 20px;
+    }
+}

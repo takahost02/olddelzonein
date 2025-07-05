@@ -1,0 +1,34 @@
+.res-indicator {
+    height: 365px !important;
+}
+
+
+/* Active button */
+.active-btn {
+    background-color: #130f41;
+    color: white;
+    transition: 0.3s;
+}
+
+/* Inactive button */
+.inactive-btn {
+    background-color: #F8F8FA !important;
+    color: black !important;
+    transition: 0.3s;
+}
+
+/* Hover effect */
+.active-btn:hover {
+    background-color: #0e0c35 !important;
+    color: white !important;
+}
+
+.inactive-btn:hover {
+    background-color: #F8F8FA !important;
+    color: black !important;
+}
+
+.datetime {
+    width: 100%;
+    /* display: flex; */
+}

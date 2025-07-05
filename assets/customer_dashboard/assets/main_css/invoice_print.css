@@ -1,0 +1,65 @@
+.container-print,
+.container-fluid,
+.container-sm,
+.container-md,
+.container-lg,
+.container-xl,
+.container-xxl {
+    padding-right: calc(var(--bs-gutter-x)* 1);
+    padding-left: calc(var(--bs-gutter-x)* 1);
+}
+
+.invoice-logo {
+    width: 40%;
+    height: auto;
+}
+
+.invoice-logo img {
+    width: 100%;
+    height: auto;
+}
+
+/* Styles for mobile devices */
+@media only screen and (max-width: 768px) {
+    .img-fluid {
+        height: auto;
+        max-width: 150px;
+    }
+
+    .set-invoice {
+        font-size: 15px;
+    }
+}
+
+
+@media only screen and (max-width:480px) {
+    .invoice-logo {
+        width: 80% !important;
+        height: auto;
+    }
+}
+
+@media print {
+    body {
+        -webkit-print-color-adjust: exact !important;
+        color-adjust: exact !important;
+    }
+
+    .container-fluid-print {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        max-width: 800px;
+        margin: auto;
+    }
+
+    .card {
+        background-color: white !important;
+        box-shadow: none !important;
+        border: none !important;
+    }
+
+    .set-print {
+        width: 50% !important;
+    }
+}

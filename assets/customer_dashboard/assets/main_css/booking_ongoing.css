@@ -1,0 +1,226 @@
+.status_detail1 {
+
+
+
+    border-radius: 18px;
+
+
+
+    background: rgba(52, 71, 103, 1);
+
+
+
+    padding: .2rem 1rem;
+
+
+
+}
+
+
+
+
+
+
+
+.status_detail1 p {
+
+
+
+    font-size: 12px;
+
+
+
+    font-weight: 700;
+
+
+
+    color: white;
+
+
+
+    margin-bottom: 0px;
+
+
+
+}
+
+
+
+
+
+
+
+.status_detail2 {
+
+
+
+    border-radius: 18px;
+
+
+
+    background: rgba(220, 255, 221, 0.5);
+
+
+
+    padding: .2rem 1rem;
+
+
+
+}
+
+
+
+
+
+
+
+.status_detail2 p {
+
+
+
+    font-size: 12px;
+
+
+
+    font-weight: 700;
+
+
+
+    color: rgba(55, 234, 62, 1);
+
+
+
+    margin-bottom: 0px;
+
+
+
+}
+
+
+
+
+
+
+
+.status_detail3 {
+
+
+
+    border-radius: 18px;
+
+
+
+    background: rgba(255, 226, 226, 1);
+
+
+
+    padding: .2rem 1rem;
+
+
+
+}
+
+
+
+
+
+
+
+.status_detail3 p {
+
+
+
+    font-size: 12px;
+
+
+
+    font-weight: 700;
+
+
+
+    color: rgba(255, 33, 33, 1);
+
+
+
+    margin-bottom: 0px;
+
+
+
+}
+
+
+
+
+
+
+
+.form-control:focus {
+
+
+
+    box-shadow: unset !important;
+
+
+
+    border-color: #d2d6da !important;
+
+
+
+}
+
+
+
+
+
+
+
+.input-group .form-control:focus {
+
+
+
+    border-right: unset !important;
+
+
+
+}
+
+
+
+
+
+
+
+.custom-alert {
+
+
+
+    position: fixed;
+
+
+
+    top: 20px;
+
+
+
+  
+
+
+
+    right: 20px;
+
+
+
+    
+
+
+
+    z-index: 9999;
+
+
+
+  
+
+
+
+}
+

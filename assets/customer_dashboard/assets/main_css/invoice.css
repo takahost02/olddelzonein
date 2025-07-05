@@ -1,0 +1,89 @@
+.container-print, .container-fluid, .container-sm, .container-md, .container-lg, .container-xl, .container-xxl {
+    padding-right: calc(var(--bs-gutter-x) * 1);
+    padding-left: calc(var(--bs-gutter-x) * 1);
+}
+
+.btn {
+display: inline-block;
+padding: 0.5rem 1rem;
+margin: 0.5rem;
+border: none;
+border-radius: 5px;
+color: #fff;
+background-color: #007bff;
+text-decoration: none;
+cursor: pointer;
+transition: background-color 0.3s;
+}
+
+.btn:hover {
+background-color: #0056b3;
+}
+.table td, .table th {
+  white-space: unset;
+}
+.invoice-logo{
+  width:40%;
+  height: auto;
+}
+.invoice-logo img{
+  width: 100%;
+  height: auto;
+}
+  /* Styles for mobile devices */
+  @media only screen and (max-width: 768px) {
+        .img-fluid {
+          height: auto;
+          max-width: 150px;
+        }
+       .set-invoice{
+        font-size: 15px;
+       }
+    }
+
+
+    @media only screen and (max-width:480px){
+.invoice-logo {
+  width: 80% !important;
+  height: auto;
+}
+}
+
+/* Styles for mobile devices */
+@media (max-width: 768px) {
+.img-fluid {
+  height: 70px;
+  max-width: 150px;
+}
+
+
+.details-table td, .details-table th {
+  font-size: 12px;
+}
+}
+
+/* Print styles */
+@media print {
+body {
+  -webkit-print-color-adjust: exact !important;
+  color-adjust: exact !important;
+}
+
+.container {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  max-width: 800px;
+  margin: auto;
+}
+
+.card {
+  background-color: white !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+
+.table-responsive {
+  overflow-x: visible !important;
+}
+}

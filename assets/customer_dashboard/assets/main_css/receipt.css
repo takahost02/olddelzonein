@@ -1,0 +1,59 @@
+.btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #007bff;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.table thead th {
+    padding: .5rem;
+
+}
+
+.invoice-logo {
+    width: 40%;
+    height: auto;
+}
+
+.invoice-logo img {
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .img-fluid {
+        width: 100%;
+        height: auto;
+        max-width: 300px !important;
+    }
+
+}
+
+@media only screen and (max-width:480px) {
+    .invoice-logo {
+        width: 80% !important;
+        height: auto;
+    }
+}
+
+@media (max-width: 400px) {
+    .img-fluid {
+        width: 100%;
+        height: auto;
+        max-width: 350px !important;
+    }
+}
+
+.table td, .table th {
+white-space: unset;
+}

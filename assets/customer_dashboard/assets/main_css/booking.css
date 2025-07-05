@@ -1,0 +1,658 @@
+.dot-dropdown .dropdown-toggle::after {
+
+
+
+    content: none !important;
+
+
+
+  }
+
+
+
+
+
+
+
+  .dot-dropdown .dropdown-toggle {
+
+
+
+  
+
+
+
+    cursor: pointer;
+
+
+
+  }
+
+
+
+
+
+
+
+  .dot-dropdown .dropdown-menu {
+
+
+
+    min-width: 2rem;
+
+
+
+    box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.15);
+
+
+
+    padding: 0;
+
+
+
+  }
+
+
+
+
+
+
+
+  .dot-dropdown .dropdown-menu .dropdown-item {
+
+
+
+    font-size: 10px;
+
+
+
+    font-weight: 400;
+
+
+
+    color: rgba(52, 71, 103, 1);
+
+
+
+  }
+
+
+
+
+
+
+
+  .dot-dropdown .dropdown-item li .dropdown-item:hover,
+
+
+
+  .dot-dropdown .dropdown-item li:focus,
+
+
+
+  .dot-dropdown .dropdown-item li:active {
+
+
+
+    background: rgb(220, 220, 220) !important;
+
+
+
+  }
+
+
+
+
+
+
+
+  .dot-dropdown .dropdown-menu li:first-child .dropdown-item:hover,
+
+
+
+  .dot-dropdown .dropdown-menu li:first-child .dropdown-item:focus {
+
+
+
+    background: rgba(220, 220, 220, 1) !important;
+
+
+
+    border-top-left-radius: 8px;
+
+
+
+    border-top-right-radius: 8px;
+
+
+
+    border-bottom-left-radius: 0;
+
+
+
+    border-bottom-right-radius: 0;
+
+
+
+  }
+
+
+
+
+
+
+
+  .dot-dropdown .dropdown-menu li:last-child .dropdown-item:hover, .dot-dropdown .dropdown-menu li:last-child .dropdown-item:focus {
+
+
+
+   background: rgba(220, 220, 220, 1) !important;
+
+
+
+   border-bottom-left-radius: 8px;
+
+
+
+   border-bottom-right-radius: 8px;
+
+
+
+   border-top-right-radius: 5px;
+
+
+
+   border-top-left-radius: 5px;
+
+
+
+}
+
+
+
+
+
+
+
+  .btn:hover:not(.btn-icon-only) {
+
+
+
+    
+
+
+
+    transform: unset !important;
+
+
+
+  }
+
+
+
+
+
+
+
+  .form-control:focus {
+
+
+
+    box-shadow: unset !important;
+
+
+
+    border-color: #d2d6da !important;
+
+
+
+  }
+
+
+
+
+
+
+
+  .input-group .form-control:focus {
+
+
+
+    border-right: unset !important;
+
+
+
+  }
+
+
+
+
+
+
+
+  .btn_dark {
+
+
+
+    width: 100%;
+
+
+
+    border-top-left-radius: 0px;
+
+
+
+    border-top-right-radius: 0px;
+
+
+
+    background: rgba(52, 71, 103, 1);
+
+
+
+    color: #fff;
+
+
+
+  }
+
+
+
+
+
+
+
+  .btn_dark:hover,
+
+
+
+  .btn_dark:active,
+
+
+
+  .btn_dark:focus {
+
+
+
+    background: rgba(52, 71, 103, 1) !important;
+
+
+
+    color: #fff !important;
+
+
+
+  }
+
+
+
+
+
+
+
+  .dropdown .dropdown-toggle:after,
+
+
+
+  .dropup .dropdown-toggle:after {
+
+
+
+    content: unset !important;
+
+
+
+  }
+
+
+
+
+
+
+
+  .custom-dropdown .dropdown-menu {
+
+
+
+    right: 0 !important;
+
+
+
+    top: -1px !important;
+
+
+
+    border-radius: 5px;
+
+
+
+  }
+
+
+
+
+
+
+
+      .status_detail4{
+
+
+
+       width: 66px;
+
+
+
+       height: 21px;
+
+
+
+       border-radius: 10px;
+
+
+
+       background: #FFF7E2;
+
+
+
+       display: flex;
+
+
+
+       align-items: center;
+
+
+
+       justify-content: center;
+
+
+
+      }
+
+
+
+      .status_detail4 p{
+
+
+
+       font-size: 10px;
+
+
+
+       color: #FAC234;
+
+
+
+       font-weight: 600;
+
+
+
+       margin-bottom: 0px;
+
+
+
+      }
+
+
+
+
+
+
+
+      .status_detail3{
+
+
+
+       width: 66px;
+
+
+
+       height: 21px;
+
+
+
+       border-radius: 10px;
+
+
+
+       background: #FFF7E2;
+
+
+
+       display: flex;
+
+
+
+       align-items: center;
+
+
+
+       justify-content: center;
+
+
+
+      }
+
+
+
+      .status_detail3 p{
+
+
+
+       font-size: 10px;
+
+
+
+       color: rgba(255, 33, 33, 1);
+
+
+
+       font-weight: 600;
+
+
+
+       margin-bottom: 0px;
+
+
+
+      }
+
+
+
+
+
+
+
+      .status_detail2{
+
+
+
+       width: 66px;
+
+
+
+       height: 21px;
+
+
+
+       border-radius: 10px;
+
+
+
+       background: rgba(220, 255, 221, 0.5);
+
+
+
+       display: flex;
+
+
+
+       align-items: center;
+
+
+
+       justify-content: center;
+
+
+
+      }
+
+
+
+      .status_detail2 p{
+
+
+
+       font-size: 10px;
+
+
+
+       color: rgba(55, 234, 62, 1);
+
+
+
+       font-weight: 600;
+
+
+
+       margin-bottom: 0px;
+
+
+
+      }
+
+
+
+
+
+
+
+
+
+
+
+      .status_detail1{
+
+
+
+       width: 66px;
+
+
+
+       height: 21px;
+
+
+
+       border-radius: 10px;
+
+
+
+       background: rgba(52, 71, 103, 1);
+
+
+
+       display: flex;
+
+
+
+       align-items: center;
+
+
+
+       justify-content: center;
+
+
+
+      }
+
+
+
+      .status_detail1 p{
+
+
+
+       font-size: 10px;
+
+
+
+       color: rgba(255, 255, 255, 1);
+
+
+
+       font-weight: 600;
+
+
+
+       margin-bottom: 0px;
+
+
+
+      }
+
+
+
+
+
+
+
+      .progressbar_ongoing{
+
+
+
+           width: 60%;
+
+
+
+           background-color: #2152ff !important;    
+
+
+
+      }
+
+
+
+      .progressbar_complete{
+
+
+
+           width: 100%;
+
+
+
+           background-color: rgba(55, 234, 62, 1) !important;
+
+
+
+       }
+
+
+
+       .progressbar_cancel{
+
+
+
+           width: 20%; 
+
+
+
+            background-color: red !important;
+
+
+
+       }
+
+
+
+       .progressbar_pending{
+
+
+
+           width: 60%;  
+
+
+
+           background-color: #2152ff !important;
+
+
+
+       }
+
