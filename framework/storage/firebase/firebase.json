@@ -1,0 +1,72 @@
+{
+  "project_info": {
+    "project_number": "849661398391",
+    "firebase_url": "https://thefleetmanager-222710.firebaseio.com",
+    "project_id": "thefleetmanager-222710",
+    "storage_bucket": "thefleetmanager-222710.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:849661398391:android:c0f595fc90c36f70",
+        "android_client_info": {
+          "package_name": "com.hyvikk.thefleetmanager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "849661398391-0sf8radqa0lpp4ui409kehe8ak49tkbf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hyvikk.thefleetmanager",
+            "certificate_hash": "1149d5259c15ad260bb8f84917c49f2e5f1c4df5"
+          }
+        },
+        {
+          "client_id": "849661398391-3dpatelbkdjauof8vplrfblielalelc0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hyvikk.thefleetmanager",
+            "certificate_hash": "64da55a468694c4b8235309f9ebd878653b41737"
+          }
+        },
+        {
+          "client_id": "849661398391-hq7no4h66f9isvdrnkivfltousosh6ve.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hyvikk.thefleetmanager",
+            "certificate_hash": "7f8d0f9f276984ddc537117d51bef9e0bbe12a5b"
+          }
+        },
+        {
+          "client_id": "849661398391-j1r1389cgu3daerv8upctioa1cvsdgfc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hyvikk.thefleetmanager",
+            "certificate_hash": "a7668b28326427a849d695e352903cafb8715523"
+          }
+        },
+        {
+          "client_id": "849661398391-325q8kfasc06co54n3hud6ht7uofmqg8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDAQUOJQxrpIDRtoM1DOlTNIT1sSqzJ-k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "849661398391-325q8kfasc06co54n3hud6ht7uofmqg8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
